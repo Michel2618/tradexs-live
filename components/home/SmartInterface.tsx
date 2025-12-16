@@ -11,9 +11,11 @@ const tabs = [
 ];
 
 export default function SmartInterface() {
+    // --- THESE WERE MISSING ---
+    const activeColor = "text-violet-400";
     const activeBg = "bg-white/5";
     const activeBorder = "bg-violet-500";
-    const shadow = "shadow-[0_0_10px_rgba(139,92,246,0.5)]"; // Purple shadow
+    const shadow = "shadow-[0_0_10px_rgba(139,92,246,0.5)]"; 
 
     const [activeTab, setActiveTab] = useState('find');
 
